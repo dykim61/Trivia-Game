@@ -1,6 +1,4 @@
 var card = $("#quiz-area");
-
-// Question set
 var questions = [
   {
     question: "Which RnB Artist is in trial for sexual misconduct?",
@@ -45,7 +43,6 @@ var questions = [
   }
 ];
 
-// Variable that will hold the setInterval
 var timer;
 
 var game = {
